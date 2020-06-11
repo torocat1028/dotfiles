@@ -1,0 +1,5 @@
+[General]
+theme=ChromeOS-dark
+
+[Applications]
+KvMojaveLight=libreoffice--writer, libreoffice
