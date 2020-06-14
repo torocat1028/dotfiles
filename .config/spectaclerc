@@ -12,12 +12,12 @@ useLightMaskColour=true
 useReleaseToCapture=true
 
 [GuiConfig]
-cropRegion=833,562,1056,263
+cropRegion=617,131,99,58
 window-position=697,423
 
 [Save]
 compressionQuality=99
 copySaveLocation=false
 defaultSaveLocation=file:/home/jackchealdang/Pictures/screenshots/
-lastSaveLocation=file:///home/jackchealdang/Pictures/screenshots/SS_06_10_2020-3.png
+lastSaveLocation=file:///home/jackchealdang/Pictures/screenshots/SS_06_14_2020.png
 saveFilenameFormat=SS_%M_%D_%Y
