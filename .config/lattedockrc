@@ -21,6 +21,14 @@ LaunchCounts=
 [PlasmaThemeExtended]
 outlineWidth=1
 
+[PlasmaTransientsConfig]
+PreloadWeight=42
+enableKWinEdges=false
+raiseOnActivityChange=false
+raiseOnDesktopChange=false
+timerHide=200
+timerShow=0
+
 [ScreenConnectors]
 10=eDP-1
 11=DP-1
@@ -35,7 +43,7 @@ launchers=
 layoutsColumnWidths=
 layoutsWindowSize=-1,-1
 memoryUsage=0
-metaPressAndHoldEnabled=true
+metaPressAndHoldEnabled=false
 mouseSensitivity=0
 screenTrackerInterval=1000
 showInfoWindow=false

@@ -2,7 +2,6 @@
 Comment="Run devilspie at startup"
 Exec=/usr/bin/devilspie
 GenericName="devilspie"
-Hidden=true
 Name="devilspie"
 Terminal=false
 Type=Application

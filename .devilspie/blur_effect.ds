@@ -1,4 +1,4 @@
-(if (or (contains (window_class) "Code") (contains (window_class) "Thunderbird") (contains (window_class) "Typora") (contains (window_class) "Atom"))
+(if (or (contains (window_class) "Code") (contains (window_class) "Thunderbird") (contains (window_class) "Typora"))
     (begin
         (spawn_async (str "xprop -id " (window_xid) " -f _KDE_NET_WM_BLUR_BEHIND_REGION 32c -set _KDE_NET_WM_BLUR_BEHIND_REGION 0 "))
         (spawn_async (str "xprop -id " (window_xid) " -f _NET_WM_WINDOW_OPACITY 32c -set _NET_WM_WINDOW_OPACITY 0xdfffffff"))
