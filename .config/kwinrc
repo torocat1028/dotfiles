@@ -2,21 +2,18 @@
 update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed
 
 [Compositing]
-Enabled=true
 GLCore=true
-GLPreferBufferSwap=a
 GLTextureFilter=0
-HiddenPreviews=5
+HiddenPreviews=4
 OpenGLIsUnsafe=false
-WindowsBlockCompositing=true
+WindowsBlockCompositing=false
 XRenderSmoothScale=false
 
 [Desktops]
 Id_1=29060ea6-8344-4050-bc09-c7a5e7926af8
-Id_2=abb857de-13f0-4ba5-a345-26ab6f924d73
-Id_3=648b2772-cfa8-41fd-a369-37e17ff015cb
+Id_2=85dd2e0a-6d47-4053-afe1-f868e1b26b2d
 Name_1=Desktop
-Number=3
+Number=2
 Rows=1
 
 [Effect-Blur]
@@ -143,11 +140,11 @@ enableStairLayout=false
 enableThreeColumnLayout=false
 keepFloatAbove=false
 monocleMaximize=false
-screenGapBottom=12
-screenGapLeft=12
-screenGapRight=12
-screenGapTop=12
-tileLayoutGap=12
+screenGapBottom=10
+screenGapLeft=10
+screenGapRight=10
+screenGapTop=10
+tileLayoutGap=10
 
 [Script-max2NewVirtualDesktop]
 keepNonEmptyDesktop=true

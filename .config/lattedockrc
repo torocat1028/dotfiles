@@ -21,14 +21,6 @@ LaunchCounts=
 [PlasmaThemeExtended]
 outlineWidth=1
 
-[PlasmaTransientsConfig]
-PreloadWeight=42
-enableKWinEdges=false
-raiseOnActivityChange=false
-raiseOnDesktopChange=false
-timerHide=200
-timerShow=0
-
 [ScreenConnectors]
 10=eDP-1
 11=DP-1

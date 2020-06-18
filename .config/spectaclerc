@@ -12,7 +12,7 @@ useLightMaskColour=true
 useReleaseToCapture=true
 
 [GuiConfig]
-cropRegion=331,299,838,475
+cropRegion=1095,312,604,503
 window-position=697,423
 
 [Save]
