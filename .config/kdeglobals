@@ -109,7 +109,7 @@ ForegroundVisited=0,188,212
 
 [DirSelect Dialog]
 DirSelectDialog Size=889,599
-History Items[$e]=file:$HOME/McMojave-kde/Kvantum/McMojave,file:$HOME/ChromeOS-kde/Kvantum/ChromeOS-dark,file:$HOME/ChromeOS-kde/Kvantum/ChromeOS,file:$HOME/Pictures/screenshots,file:$HOME/Downloads/materia-kvantum/MateriaBlur
+History Items[$e]=file:$HOME/Downloads/WhiteSur,file:$HOME/Downloads/ChromeOS-kde-master/Kvantum/ChromeOS-light,file:$HOME/McMojave-kde/Kvantum/McMojave,file:$HOME/ChromeOS-kde/Kvantum/ChromeOS-dark,file:$HOME/ChromeOS-kde/Kvantum/ChromeOS,file:$HOME/Pictures/screenshots,file:$HOME/Downloads/materia-kvantum/MateriaBlur
 
 [General]
 BrowserApplication=firefox.desktop

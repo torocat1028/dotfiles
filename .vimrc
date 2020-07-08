@@ -52,7 +52,6 @@ if has('syntax') && has('eval')
 endif
 
 set number
-set relativenumber
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 noremap  <Up> ""
 noremap! <Up> <Esc>

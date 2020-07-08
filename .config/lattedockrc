@@ -25,12 +25,15 @@ outlineWidth=1
 10=eDP-1
 11=DP-1
 12=HDMI-1
+13=eDP1
+14=DP1
 
 [UniversalSettings]
 badges3DStyle=false
 canDisableBorders=false
 currentLayout=iPadOS-Pantheon
 downloadWindowSize=-1,-1
+hiddenConfigurationWindowsAreDeleted=true
 lastNonAssignedLayout=iPadOS-Pantheon
 launchers=
 layoutsColumnWidths=

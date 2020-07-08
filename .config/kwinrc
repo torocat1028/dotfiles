@@ -11,7 +11,7 @@ XRenderSmoothScale=false
 
 [Desktops]
 Id_1=29060ea6-8344-4050-bc09-c7a5e7926af8
-Id_2=8754eb86-72da-4c52-b380-8e20de3ace32
+Id_2=d1826687-3f77-4f78-8f8f-4bb7aca39d9b
 Name_1=Desktop
 Number=2
 Rows=1
@@ -139,6 +139,7 @@ enableSpreadLayout=false
 enableStairLayout=false
 enableThreeColumnLayout=false
 keepFloatAbove=false
+layoutPerDesktop=true
 monocleMaximize=false
 screenGapBottom=10
 screenGapLeft=10
