@@ -1,9 +1,9 @@
 [%General]
 author=Alexey Varfolomeev, based on KvAdaptaDark by Tsu Jan
 comment=The dark varianl of Materia
-x11drag=menubar_and_primary_toolbar
+x11drag=all
 alt_mnemonic=true
-left_tabs=true
+left_tabs=false
 attach_active_tab=false
 mirror_doc_tabs=true
 group_toolbar_buttons=true
@@ -26,7 +26,7 @@ check_size=16
 textless_progressbar=false
 progressbar_thickness=2
 menubar_mouse_tracking=true
-toolbutton_style=1
+toolbutton_style=0
 double_click=false
 translucent_windows=true
 blurring=true

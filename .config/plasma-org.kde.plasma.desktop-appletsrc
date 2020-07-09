@@ -107,17 +107,6 @@ PreloadWeight=0
 expanding=false
 length=12
 
-[Containments][2][Applets][27]
-immutability=1
-plugin=org.kde.plasma.minimizeall
-
-[Containments][2][Applets][27][Configuration]
-PreloadWeight=0
-
-[Containments][2][Applets][27][Configuration][ConfigDialog]
-DialogHeight=660
-DialogWidth=880
-
 [Containments][2][Applets][33]
 immutability=1
 plugin=org.kde.plasma.appmenu
@@ -160,7 +149,7 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][45][Configuration]
-PreloadWeight=89
+PreloadWeight=93
 
 [Containments][2][Applets][45][Configuration][ConfigDialog]
 DialogHeight=660
@@ -178,8 +167,34 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][6][Configuration]
-PreloadWeight=84
+PreloadWeight=100
 SystrayContainmentId=65
+
+[Containments][2][Applets][79]
+immutability=1
+plugin=org.kde.plasma.showdesktop
+
+[Containments][2][Applets][80]
+immutability=1
+plugin=org.kde.plasma.systemmonitor
+
+[Containments][2][Applets][80][Configuration][Appearance]
+chartFace=org.kde.ksysguard.barchart
+title=Individual Core Usage
+
+[Containments][2][Applets][80][Configuration][SensorColors]
+cpu/cpu0/TotalLoad=59,80,116
+cpu/cpu1/TotalLoad=81,59,116
+cpu/cpu2/TotalLoad=116,59,108
+cpu/cpu3/TotalLoad=116,59,66
+cpu/cpu4/TotalLoad=116,95,59
+cpu/cpu5/TotalLoad=94,116,59
+cpu/cpu6/TotalLoad=59,116,66
+cpu/cpu7/TotalLoad=59,116,109
+
+[Containments][2][Applets][80][Configuration][Sensors]
+highPrioritySensorIds=["cpu/cpu0/TotalLoad","cpu/cpu1/TotalLoad","cpu/cpu2/TotalLoad","cpu/cpu3/TotalLoad","cpu/cpu4/TotalLoad","cpu/cpu5/TotalLoad","cpu/cpu6/TotalLoad","cpu/cpu7/TotalLoad"]
+totalSensors=["cpu/system/TotalLoad"]
 
 [Containments][2][ConfigDialog]
 DialogHeight=89
@@ -189,7 +204,7 @@ DialogWidth=1920
 PreloadWeight=0
 
 [Containments][2][General]
-AppletOrder=25;45;22;33;39;21;24;6;27
+AppletOrder=25;45;22;33;21;80;39;24;6;79
 
 [Containments][50][Applets][51][Configuration]
 PreloadWeight=74
@@ -232,17 +247,37 @@ immutability=1
 plugin=org.communia.apptitle
 
 [Containments][62][Applets][63][Configuration]
-PreloadWeight=42
+PreloadWeight=18
+
+[Containments][62][Applets][63][Configuration][ConfigDialog]
+DialogHeight=660
+DialogWidth=880
+
+[Containments][62][Applets][63][Configuration][General]
+bold=true
+noWindowType=desktopName
+textType=1
+
+[Containments][62][Applets][76]
+immutability=1
+plugin=org.kde.plasma.appmenu
+
+[Containments][62][Applets][76][Configuration]
+PreloadWeight=26
+
+[Containments][62][Applets][76][Configuration][ConfigDialog]
+DialogHeight=660
+DialogWidth=880
 
 [Containments][62][ConfigDialog]
 DialogHeight=89
 DialogWidth=1920
 
 [Containments][62][Configuration]
-PreloadWeight=42
+PreloadWeight=18
 
 [Containments][62][General]
-AppletOrder=63
+AppletOrder=63;76
 
 [Containments][64]
 activityId=b403fea9-3c57-43a3-81ce-f6da0c78e8a6
@@ -256,6 +291,9 @@ wallpaperplugin=org.kde.image
 [Containments][64][ConfigDialog]
 DialogHeight=660
 DialogWidth=880
+
+[Containments][64][Configuration]
+PreloadWeight=26
 
 [Containments][64][Wallpaper][org.kde.image][General]
 Image=file:///home/jackchealdang/Pictures/wallpapers/Nauimusuka.full.2217986.jpg
@@ -273,46 +311,91 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=org.kde.plasma.volume
 
+[Containments][65][Applets][66][Configuration]
+PreloadWeight=54
+
 [Containments][65][Applets][67]
 immutability=1
 plugin=org.kde.plasma.clipboard
+
+[Containments][65][Applets][67][Configuration]
+PreloadWeight=26
 
 [Containments][65][Applets][68]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
+[Containments][65][Applets][68][Configuration]
+PreloadWeight=26
+
 [Containments][65][Applets][69]
 immutability=1
 plugin=org.kde.plasma.keyboardindicator
+
+[Containments][65][Applets][69][Configuration]
+PreloadWeight=26
 
 [Containments][65][Applets][70]
 immutability=1
 plugin=org.kde.plasma.nightcolorcontrol
 
+[Containments][65][Applets][70][Configuration]
+PreloadWeight=26
+
 [Containments][65][Applets][71]
 immutability=1
 plugin=org.kde.plasma.notifications
+
+[Containments][65][Applets][71][Configuration]
+PreloadWeight=31
 
 [Containments][65][Applets][72]
 immutability=1
 plugin=org.kde.plasma.vault
 
+[Containments][65][Applets][72][Configuration]
+PreloadWeight=26
+
 [Containments][65][Applets][73]
 immutability=1
 plugin=org.kde.plasma.battery
+
+[Containments][65][Applets][73][Configuration]
+PreloadWeight=26
 
 [Containments][65][Applets][74]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
+[Containments][65][Applets][74][Configuration]
+PreloadWeight=36
+
 [Containments][65][Applets][75]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
+[Containments][65][Applets][75][Configuration]
+PreloadWeight=26
+
+[Containments][65][Applets][77]
+immutability=1
+plugin=org.kde.plasma.mediacontroller
+
+[Containments][65][Applets][77][Configuration]
+PreloadWeight=26
+
+[Containments][65][ConfigDialog]
+DialogHeight=660
+DialogWidth=880
+
+[Containments][65][Configuration]
+PreloadWeight=26
+
 [Containments][65][General]
-extraItems=org.kde.plasma.networkmanagement,org.kde.plasma.vault,org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.volume,org.kde.plasma.clipboard,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.devicenotifier
+extraItems=org.kde.plasma.networkmanagement,org.kde.plasma.vault,org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.volume,org.kde.plasma.clipboard,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.devicenotifier,JavaEmbeddedFrame
+hiddenItems=JavaEmbeddedFrame,org.kde.plasma.bluetooth
 knownItems=org.kde.plasma.networkmanagement,org.kde.plasma.vault,org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.volume,org.kde.plasma.clipboard,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.devicenotifier
 
 [ScreenMapping]
-itemsOnDisabledScreens=0,2,desktop:/VS Code,desktop:/pthread_examples.tar.gz
+itemsOnDisabledScreens=
 screenMapping=desktop:/pthread_examples.tar.gz,0,desktop:/VS Code,0
