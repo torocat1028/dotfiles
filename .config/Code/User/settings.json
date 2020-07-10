@@ -21,7 +21,6 @@
     "vim.cursorStylePerMode.insert": "line",
     "workbench.colorTheme": "Palenight Theme",
     "explorer.confirmDragAndDrop": false,
-    "editor.scrollBeyondLastLine": false,
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
     "godot_tools.editor_path": "/usr/bin/godot",

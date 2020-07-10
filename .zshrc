@@ -25,6 +25,19 @@ source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+# Bare git repo alias
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+
+# SSH to pi
+alias pi='/usr/bin/ssh pi@192.168.1.211'
+# SSH to pi with X capabilities
+alias pix='/usr/bin/ssh -X pi@192.168.1.211'
+
+# Update list of all explicitly installed packages including AUR and dependencies
+alias backup_all='/usr/bin/pacman -Qqe > installed_packages_all.txt'
+# Update list of explicitly installed packages excluding foreign packages
+alias backup_explicit='/usr/bin/pacman -Qqent > installed_packages_explicit.txt'
+# Update list of explicitly installed foreign packages
+alias backup_foreign='/usr/bin/pacman -Qqem > installed_packages_foreign.txt'
 
 export PATH="$HOME/.local/bin:$PATH"
