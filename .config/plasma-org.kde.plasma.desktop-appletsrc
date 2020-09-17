@@ -207,6 +207,13 @@ cpu/cpu7/TotalLoad=59,116,109
 highPrioritySensorIds=["cpu/cpu0/TotalLoad","cpu/cpu1/TotalLoad","cpu/cpu2/TotalLoad","cpu/cpu3/TotalLoad","cpu/cpu4/TotalLoad","cpu/cpu5/TotalLoad","cpu/cpu6/TotalLoad","cpu/cpu7/TotalLoad"]
 totalSensors=["cpu/system/TotalLoad"]
 
+[Containments][2][Applets][82]
+immutability=1
+plugin=com.pajuelo.plasmaConfSaver
+
+[Containments][2][Applets][82][Configuration]
+PreloadWeight=55
+
 [Containments][2][ConfigDialog]
 DialogHeight=89
 DialogWidth=1920
@@ -215,7 +222,7 @@ DialogWidth=1920
 PreloadWeight=0
 
 [Containments][2][General]
-AppletOrder=25;45;22;33;21;80;39;24;6;79
+AppletOrder=25;45;22;33;82;21;80;39;24;6;79
 
 [Containments][50][Applets][51][Configuration]
 PreloadWeight=74
@@ -337,7 +344,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][65][Applets][68][Configuration]
-PreloadWeight=23
+PreloadWeight=28
 
 [Containments][65][Applets][69][Configuration]
 PreloadWeight=42
