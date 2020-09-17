@@ -37,14 +37,12 @@ dolphin
 dosfstools
 downgrade
 drkonqi
-dwarffortress
 efibootmgr
 electron
 extra-cmake-modules
 fakeroot
 feh
-filelight
-firefox-beta-bin
+firefox
 flex
 frameworkintegration
 gcc
@@ -160,7 +158,6 @@ make
 mesa-demos
 milou
 modemmanager-qt
-mon2cam-git
 mtools
 nano
 ncdu
@@ -212,6 +209,7 @@ python-xlib
 qimgv-git
 qqc2-desktop-style
 qt5-webkit
+realvnc-vnc-viewer
 refind
 reflector
 runelite
@@ -220,10 +218,12 @@ solid
 sonnet
 spectacle
 spotify
+steam
 sudo
 syndication
 syntax-highlighting
 systemsettings
+teams
 telegram-desktop
 texinfo
 thermald
@@ -247,6 +247,7 @@ vlc
 wget
 which
 wireless_tools
+wireshark-qt
 wpa_supplicant
 xdg-desktop-portal-kde
 xdg-user-dirs

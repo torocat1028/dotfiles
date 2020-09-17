@@ -28,6 +28,7 @@ ToolBoxButtonState=topcenter
 ToolBoxButtonX=704
 ToolBoxButtonY=34
 popups=false
+positions=1,16,desktop:/ryan's hw,0,1,desktop:/google-chrome.desktop,0,0
 sortMode=-1
 toolTips=true
 
@@ -74,7 +75,7 @@ immutability=1
 plugin=org.kde.plasma.eventcalendar
 
 [Containments][2][Applets][24][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][2][Applets][24][Configuration][Agenda]
 agenda_inProgressColor=#e6e6e6
@@ -149,7 +150,7 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][45][Configuration]
-PreloadWeight=92
+PreloadWeight=100
 
 [Containments][2][Applets][45][Configuration][ConfigDialog]
 DialogHeight=660
@@ -167,7 +168,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][6][Configuration]
-PreloadWeight=92
+PreloadWeight=100
 SystrayContainmentId=65
 
 [Containments][2][Applets][79]
@@ -187,6 +188,10 @@ PreloadWeight=42
 [Containments][2][Applets][80][Configuration][Appearance]
 chartFace=org.kde.ksysguard.barchart
 title=Individual Core Usage
+
+[Containments][2][Applets][80][Configuration][ConfigDialog]
+DialogHeight=660
+DialogWidth=880
 
 [Containments][2][Applets][80][Configuration][SensorColors]
 cpu/cpu0/TotalLoad=59,80,116
@@ -318,7 +323,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][65][Applets][66][Configuration]
-PreloadWeight=61
+PreloadWeight=100
 
 [Containments][65][Applets][67]
 immutability=1
@@ -332,14 +337,10 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][65][Applets][68][Configuration]
-PreloadWeight=18
-
-[Containments][65][Applets][69]
-immutability=1
-plugin=org.kde.plasma.keyboardindicator
+PreloadWeight=23
 
 [Containments][65][Applets][69][Configuration]
-PreloadWeight=18
+PreloadWeight=42
 
 [Containments][65][Applets][70]
 immutability=1
@@ -353,7 +354,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][65][Applets][71][Configuration]
-PreloadWeight=28
+PreloadWeight=43
 
 [Containments][65][Applets][72][Configuration]
 PreloadWeight=42
@@ -363,28 +364,28 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][65][Applets][73][Configuration]
-PreloadWeight=18
+PreloadWeight=23
 
 [Containments][65][Applets][74]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][65][Applets][74][Configuration]
-PreloadWeight=33
+PreloadWeight=63
 
 [Containments][65][Applets][75]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][65][Applets][75][Configuration]
-PreloadWeight=23
+PreloadWeight=28
 
 [Containments][65][Applets][77]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][65][Applets][77][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
 [Containments][65][ConfigDialog]
 DialogHeight=660
@@ -394,10 +395,10 @@ DialogWidth=880
 PreloadWeight=18
 
 [Containments][65][General]
-extraItems=org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.volume,org.kde.plasma.clipboard,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.devicenotifier,JavaEmbeddedFrame,Discover Notifier_org.kde.DiscoverNotifier
+extraItems=org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.volume,org.kde.plasma.clipboard,org.kde.plasma.mediacontroller,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.devicenotifier,JavaEmbeddedFrame,Discover Notifier_org.kde.DiscoverNotifier
 hiddenItems=JavaEmbeddedFrame,org.kde.plasma.bluetooth,org.kde.plasma.nightcolorcontrol,org.kde.plasma.clipboard,Discover Notifier_org.kde.DiscoverNotifier
 knownItems=org.kde.plasma.networkmanagement,org.kde.plasma.vault,org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.volume,org.kde.plasma.clipboard,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardindicator,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.devicenotifier
 
 [ScreenMapping]
-itemsOnDisabledScreens=0,2,desktop:/pthread_examples.tar.gz,desktop:/VS Code
-screenMapping=desktop:/pthread_examples.tar.gz,0,desktop:/VS Code,0
+itemsOnDisabledScreens=
+screenMapping=desktop:/pthread_examples.tar.gz,0,desktop:/google-chrome.desktop,0,desktop:/VS Code,0,desktop:/ryan's hw,0

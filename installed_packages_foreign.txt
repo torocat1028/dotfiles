@@ -2,7 +2,6 @@ aseprite
 davmail
 dell-e310dw
 downgrade
-firefox-beta-bin
 github-desktop-bin
 godot
 google-chrome
@@ -12,12 +11,13 @@ kwin-decoration-sierra-breeze-enhanced-git
 laptop-mode-tools
 latte-dock-git
 mailspring
-mon2cam-git
 plasma5-applets-virtual-desktop-bar-git
 plasma5-applets-window-buttons-git
 qimgv-git
+realvnc-vnc-viewer
 runelite
 spotify
+teams
 thunderbird-appmenu-bin
 ttf-ms-fonts
 ttf-vista-fonts

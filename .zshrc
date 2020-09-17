@@ -32,6 +32,13 @@ alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 alias pi='/usr/bin/ssh pi@192.168.1.211'
 # SSH to pi with X capabilities
 alias pix='/usr/bin/ssh -X pi@192.168.1.211'
+# Connect to VNC to PI
+alias pi_vnc='/usr/bin/vncviewer 192.168.1.211:1'
+
+# Connect to UTA VPN
+alias utavpn='sudo /usr/bin/openconnect vpn.uta.edu'
+# SSH to UTA Omega Servers
+alias utassh='/usr/bin/ssh jxd1197@omega.uta.edu'
 
 # Update list of all explicitly installed packages including AUR and dependencies
 alias backup_all='/usr/bin/pacman -Qqe > installed_packages_all.txt'
@@ -39,5 +46,8 @@ alias backup_all='/usr/bin/pacman -Qqe > installed_packages_all.txt'
 alias backup_explicit='/usr/bin/pacman -Qqent > installed_packages_explicit.txt'
 # Update list of explicitly installed foreign packages
 alias backup_foreign='/usr/bin/pacman -Qqem > installed_packages_foreign.txt'
+
+# Update top 5 mirrors
+alias update_mirrors='sudo reflector --verbose --latest 5 --sort rate --save /etc/pacman.d/mirrorlist'
 
 export PATH="$HOME/.local/bin:$PATH"

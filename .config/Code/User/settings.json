@@ -24,4 +24,5 @@
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
     "godot_tools.editor_path": "/usr/bin/godot",
+    "vim.cursorStylePerMode.normal": "line",
 }
