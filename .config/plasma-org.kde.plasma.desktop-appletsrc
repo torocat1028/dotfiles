@@ -408,4 +408,4 @@ knownItems=org.kde.plasma.networkmanagement,org.kde.plasma.vault,org.kde.plasma.
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/pthread_examples.tar.gz,0,desktop:/google-chrome.desktop,0,desktop:/VS Code,0,desktop:/ryan's hw,0
+screenMapping=desktop:/VS Code,0,desktop:/ryan's hw,0,desktop:/google-chrome.desktop,0,desktop:/pthread_examples.tar.gz,0

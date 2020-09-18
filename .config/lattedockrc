@@ -3,12 +3,13 @@ Height 1080=550
 Width 1920=800
 
 [KFileDialog Settings]
-Recent Files[$e]=iPadOS-Pantheon.layout.latte,file:$HOME/iPadOS-Pantheon.layout.latte
+Recent Files[$e]=iPadOS-Pantheon.layout.latte,file:///run/media/jackchealdang/WE STAY EATING GOOD/9.17.2020 linux backup resetting/jackchealdang/iPadOS-Pantheon.layout.latte
+Recent URLs[$e]=file:///run/media/jackchealdang/WE STAY EATING GOOD/9.17.2020 linux backup resetting/jackchealdang/
 detailViewIconSize=0
 
 [LatteSettingsDialog]
 downloadWindowSize=800,550
-windowSize=1920,1012
+windowSize=1280,1012
 
 [LatteSettingsDialog][TabLayouts]
 columnWidths=94,210,94,0

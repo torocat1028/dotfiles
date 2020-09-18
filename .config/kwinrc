@@ -11,10 +11,9 @@ XRenderSmoothScale=false
 
 [Desktops]
 Id_1=29060ea6-8344-4050-bc09-c7a5e7926af8
-Id_2=b95d6fbd-2573-431d-a6df-d27e2bbc01d1
-Id_3=ac1a5d1d-175e-4fbd-ade5-54a605cf328e
+Id_2=8847adea-e1ee-4ac7-844f-3b655b42b363
 Name_1=Desktop
-Number=3
+Number=2
 Rows=1
 
 [Effect-Blur]
